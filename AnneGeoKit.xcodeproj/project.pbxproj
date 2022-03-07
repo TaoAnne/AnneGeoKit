@@ -22,6 +22,9 @@
 		B66CBD6927D18C7000724CF6 /* AnneGeoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B66CBD2A27D1899300724CF6 /* AnneGeoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B66CBD6E27D1907600724CF6 /* VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66CBD6D27D1907600724CF6 /* VM.swift */; };
 		B66CBD7027D1907F00724CF6 /* V.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66CBD6F27D1907F00724CF6 /* V.swift */; };
+		DB2EBC0D27D6323300070019 /* AnneGoeKitExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2EBC0C27D6323300070019 /* AnneGoeKitExampleUITests.swift */; };
+		DB2EBC0F27D6323300070019 /* AnneGoeKitExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2EBC0E27D6323300070019 /* AnneGoeKitExampleUITestsLaunchTests.swift */; };
+		DB2EBC1727D6389700070019 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2EBC1627D6389700070019 /* Box.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = B66CBD2927D1899300724CF6;
 			remoteInfo = AnneGeoKit;
+		};
+		DB2EBC1027D6323300070019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B66CBD2127D1899300724CF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B66CBD5227D18BE400724CF6;
+			remoteInfo = AnneGoeKitExample;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -72,6 +82,10 @@
 		B66CBD6327D18BE400724CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B66CBD6D27D1907600724CF6 /* VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VM.swift; sourceTree = "<group>"; };
 		B66CBD6F27D1907F00724CF6 /* V.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V.swift; sourceTree = "<group>"; };
+		DB2EBC0A27D6323300070019 /* AnneGoeKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnneGoeKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2EBC0C27D6323300070019 /* AnneGoeKitExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnneGoeKitExampleUITests.swift; sourceTree = "<group>"; };
+		DB2EBC0E27D6323300070019 /* AnneGoeKitExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnneGoeKitExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB2EBC1627D6389700070019 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +112,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DB2EBC0727D6323300070019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -107,6 +128,7 @@
 				B66CBD2C27D1899300724CF6 /* AnneGeoKit */,
 				B66CBD3627D1899300724CF6 /* AnneGeoKitTests */,
 				B66CBD5427D18BE400724CF6 /* AnneGoeKitExample */,
+				DB2EBC0B27D6323300070019 /* AnneGoeKitExampleUITests */,
 				B66CBD2B27D1899300724CF6 /* Products */,
 				B66CBD6727D18C7000724CF6 /* Frameworks */,
 			);
@@ -118,6 +140,7 @@
 				B66CBD2A27D1899300724CF6 /* AnneGeoKit.framework */,
 				B66CBD3227D1899300724CF6 /* AnneGeoKitTests.xctest */,
 				B66CBD5327D18BE400724CF6 /* AnneGoeKitExample.app */,
+				DB2EBC0A27D6323300070019 /* AnneGoeKitExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,6 +196,7 @@
 				B66CBD5927D18BE400724CF6 /* VC.swift */,
 				B66CBD6D27D1907600724CF6 /* VM.swift */,
 				B66CBD6F27D1907F00724CF6 /* V.swift */,
+				DB2EBC1627D6389700070019 /* Box.swift */,
 				B66CBD5E27D18BE400724CF6 /* Assets.xcassets */,
 				B66CBD6027D18BE400724CF6 /* LaunchScreen.storyboard */,
 				B66CBD6327D18BE400724CF6 /* Info.plist */,
@@ -185,6 +209,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB2EBC0B27D6323300070019 /* AnneGoeKitExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2EBC0C27D6323300070019 /* AnneGoeKitExampleUITests.swift */,
+				DB2EBC0E27D6323300070019 /* AnneGoeKitExampleUITestsLaunchTests.swift */,
+			);
+			path = AnneGoeKitExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +289,24 @@
 			productReference = B66CBD5327D18BE400724CF6 /* AnneGoeKitExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DB2EBC0927D6323300070019 /* AnneGoeKitExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2EBC1427D6323300070019 /* Build configuration list for PBXNativeTarget "AnneGoeKitExampleUITests" */;
+			buildPhases = (
+				DB2EBC0627D6323300070019 /* Sources */,
+				DB2EBC0727D6323300070019 /* Frameworks */,
+				DB2EBC0827D6323300070019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2EBC1127D6323300070019 /* PBXTargetDependency */,
+			);
+			name = AnneGoeKitExampleUITests;
+			productName = AnneGoeKitExampleUITests;
+			productReference = DB2EBC0A27D6323300070019 /* AnneGoeKitExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -276,6 +327,10 @@
 					B66CBD5227D18BE400724CF6 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					DB2EBC0927D6323300070019 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B66CBD5227D18BE400724CF6;
+					};
 				};
 			};
 			buildConfigurationList = B66CBD2427D1899300724CF6 /* Build configuration list for PBXProject "AnneGeoKit" */;
@@ -294,6 +349,7 @@
 				B66CBD2927D1899300724CF6 /* AnneGeoKit */,
 				B66CBD3127D1899300724CF6 /* AnneGeoKitTests */,
 				B66CBD5227D18BE400724CF6 /* AnneGoeKitExample */,
+				DB2EBC0927D6323300070019 /* AnneGoeKitExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -319,6 +375,13 @@
 			files = (
 				B66CBD6227D18BE400724CF6 /* LaunchScreen.storyboard in Resources */,
 				B66CBD5F27D18BE400724CF6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2EBC0827D6323300070019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +415,16 @@
 				B66CBD5A27D18BE400724CF6 /* VC.swift in Sources */,
 				B66CBD5627D18BE400724CF6 /* AppDelegate.swift in Sources */,
 				B66CBD6E27D1907600724CF6 /* VM.swift in Sources */,
+				DB2EBC1727D6389700070019 /* Box.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2EBC0627D6323300070019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2EBC0F27D6323300070019 /* AnneGoeKitExampleUITestsLaunchTests.swift in Sources */,
+				DB2EBC0D27D6323300070019 /* AnneGoeKitExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +441,11 @@
 			platformFilter = ios;
 			target = B66CBD2927D1899300724CF6 /* AnneGeoKit */;
 			targetProxy = B66CBD6A27D18C7000724CF6 /* PBXContainerItemProxy */;
+		};
+		DB2EBC1127D6323300070019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B66CBD5227D18BE400724CF6 /* AnneGoeKitExample */;
+			targetProxy = DB2EBC1027D6323300070019 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -656,6 +734,40 @@
 			};
 			name = Release;
 		};
+		DB2EBC1227D6323300070019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HM26SG4QWL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Anne.AnneGoeKitExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnneGoeKitExample;
+			};
+			name = Debug;
+		};
+		DB2EBC1327D6323300070019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HM26SG4QWL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Anne.AnneGoeKitExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnneGoeKitExample;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -691,6 +803,15 @@
 			buildConfigurations = (
 				B66CBD6527D18BE400724CF6 /* Debug */,
 				B66CBD6627D18BE400724CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2EBC1427D6323300070019 /* Build configuration list for PBXNativeTarget "AnneGoeKitExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2EBC1227D6323300070019 /* Debug */,
+				DB2EBC1327D6323300070019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -15,33 +15,23 @@ class VTN: UIButton{
 }
 
 protocol V: UIView {
-    
+    var navigatiionBarEndPosY: CGFloat {get}
+    var navigatiionBarHeight: CGFloat {get}
 }
 
-class Child_V: UIView, V{
-    init(){
-        super.init(frame: UIScreen.main.bounds)
-        self.backgroundColor = .red
-        
-        
-        let btn = VTN()
-        btn.akg.makeFrame { maker in
-            maker.x = 100
-            maker.y = 100
-            maker.w = 100
-            maker.h = 100
-            maker.backColor = .yellow
-//            maker.item.setImage(<#T##CIImage#>)
-        }
-        self.addSubview(btn)
-        
-        Timer.scheduledTimer(withTimeInterval: 3, repeats: false) { _ in
-            btn.removeFromSuperview()
+extension V{
+    var navigatiionBarEndPosY: CGFloat {
+        if #available(iOS 13.0, *) {
+            return (UIApplication.shared.windows.first?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0.0) +
+            (UINavigationController().navigationBar.frame.height)
+        } else {
+            return UIApplication.shared.statusBarFrame.size.height + (UINavigationController().navigationBar.frame.height)
         }
     }
     
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    var navigatiionBarHeight: CGFloat {
+        UINavigationController().navigationBar.frame.height
     }
-    
 }
+
+
