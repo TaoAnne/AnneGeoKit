@@ -8,11 +8,7 @@
 import Foundation
 import UIKit
 
-class VTN: UIButton{
-    deinit{
-        print("deiti \(self)")
-    }
-}
+
 
 protocol V: UIView {
     var navigatiionBarEndPosY: CGFloat {get}

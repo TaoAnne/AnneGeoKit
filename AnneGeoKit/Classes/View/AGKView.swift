@@ -9,12 +9,7 @@ import Foundation
 import UIKit
 
 public extension AGKView {
-    var akg: AKG {
-        return AKG(view: self)
+    var agk: AGK {
+        return AGK(view: self)
     }
-    //
 }
-
-//public extension UILabel{
-//
-//}

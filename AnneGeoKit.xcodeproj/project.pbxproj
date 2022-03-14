@@ -13,7 +13,7 @@
 		B66CBD4627D18A3B00724CF6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66CBD4327D18A3B00724CF6 /* Model.swift */; };
 		B66CBD4727D18A3B00724CF6 /* AGKConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66CBD4427D18A3B00724CF6 /* AGKConfig.swift */; };
 		B66CBD4827D18A3B00724CF6 /* AGKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66CBD4527D18A3B00724CF6 /* AGKView.swift */; };
-		B66CBD4E27D18AF000724CF6 /* AKGDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66CBD4D27D18AF000724CF6 /* AKGDI.swift */; };
+		B66CBD4E27D18AF000724CF6 /* AGKDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66CBD4D27D18AF000724CF6 /* AGKDI.swift */; };
 		B66CBD5627D18BE400724CF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66CBD5527D18BE400724CF6 /* AppDelegate.swift */; };
 		B66CBD5A27D18BE400724CF6 /* VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66CBD5927D18BE400724CF6 /* VC.swift */; };
 		B66CBD5F27D18BE400724CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66CBD5E27D18BE400724CF6 /* Assets.xcassets */; };
@@ -22,6 +22,10 @@
 		B66CBD6927D18C7000724CF6 /* AnneGeoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B66CBD2A27D1899300724CF6 /* AnneGeoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B66CBD6E27D1907600724CF6 /* VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66CBD6D27D1907600724CF6 /* VM.swift */; };
 		B66CBD7027D1907F00724CF6 /* V.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66CBD6F27D1907F00724CF6 /* V.swift */; };
+		B68A057727D70D80007B6288 /* AKGFrameMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A057627D70D80007B6288 /* AKGFrameMaker.swift */; };
+		B68A057927D70DE0007B6288 /* AGK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A057827D70DE0007B6288 /* AGK.swift */; };
+		B68A057D27D7165F007B6288 /* AGKAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A057C27D7165F007B6288 /* AGKAttribute.swift */; };
+		B68A058227D72E87007B6288 /* AGKFrameMakerEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A058127D72E87007B6288 /* AGKFrameMakerEdit.swift */; };
 		DB2EBC0D27D6323300070019 /* AnneGoeKitExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2EBC0C27D6323300070019 /* AnneGoeKitExampleUITests.swift */; };
 		DB2EBC0F27D6323300070019 /* AnneGoeKitExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2EBC0E27D6323300070019 /* AnneGoeKitExampleUITestsLaunchTests.swift */; };
 		DB2EBC1727D6389700070019 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2EBC1627D6389700070019 /* Box.swift */; };
@@ -73,7 +77,7 @@
 		B66CBD4327D18A3B00724CF6 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		B66CBD4427D18A3B00724CF6 /* AGKConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGKConfig.swift; sourceTree = "<group>"; };
 		B66CBD4527D18A3B00724CF6 /* AGKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGKView.swift; sourceTree = "<group>"; };
-		B66CBD4D27D18AF000724CF6 /* AKGDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKGDI.swift; sourceTree = "<group>"; };
+		B66CBD4D27D18AF000724CF6 /* AGKDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGKDI.swift; sourceTree = "<group>"; };
 		B66CBD5327D18BE400724CF6 /* AnneGoeKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnneGoeKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66CBD5527D18BE400724CF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B66CBD5927D18BE400724CF6 /* VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC.swift; sourceTree = "<group>"; };
@@ -82,6 +86,10 @@
 		B66CBD6327D18BE400724CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B66CBD6D27D1907600724CF6 /* VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VM.swift; sourceTree = "<group>"; };
 		B66CBD6F27D1907F00724CF6 /* V.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V.swift; sourceTree = "<group>"; };
+		B68A057627D70D80007B6288 /* AKGFrameMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKGFrameMaker.swift; sourceTree = "<group>"; };
+		B68A057827D70DE0007B6288 /* AGK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGK.swift; sourceTree = "<group>"; };
+		B68A057C27D7165F007B6288 /* AGKAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGKAttribute.swift; sourceTree = "<group>"; };
+		B68A058127D72E87007B6288 /* AGKFrameMakerEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGKFrameMakerEdit.swift; sourceTree = "<group>"; };
 		DB2EBC0A27D6323300070019 /* AnneGoeKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnneGoeKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB2EBC0C27D6323300070019 /* AnneGoeKitExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnneGoeKitExampleUITests.swift; sourceTree = "<group>"; };
 		DB2EBC0E27D6323300070019 /* AnneGoeKitExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnneGoeKitExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -126,8 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				B66CBD2C27D1899300724CF6 /* AnneGeoKit */,
-				B66CBD3627D1899300724CF6 /* AnneGeoKitTests */,
 				B66CBD5427D18BE400724CF6 /* AnneGoeKitExample */,
+				B66CBD3627D1899300724CF6 /* AnneGeoKitTests */,
 				DB2EBC0B27D6323300070019 /* AnneGoeKitExampleUITests */,
 				B66CBD2B27D1899300724CF6 /* Products */,
 				B66CBD6727D18C7000724CF6 /* Frameworks */,
@@ -166,7 +174,11 @@
 			isa = PBXGroup;
 			children = (
 				B66CBD4427D18A3B00724CF6 /* AGKConfig.swift */,
-				B66CBD4D27D18AF000724CF6 /* AKGDI.swift */,
+				B68A057627D70D80007B6288 /* AKGFrameMaker.swift */,
+				B66CBD4D27D18AF000724CF6 /* AGKDI.swift */,
+				B68A057827D70DE0007B6288 /* AGK.swift */,
+				B68A057C27D7165F007B6288 /* AGKAttribute.swift */,
+				B68A058127D72E87007B6288 /* AGKFrameMakerEdit.swift */,
 				B66CBD4A27D18A9700724CF6 /* Model */,
 				B66CBD4927D18A8900724CF6 /* View */,
 			);
@@ -392,10 +404,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B66CBD4E27D18AF000724CF6 /* AKGDI.swift in Sources */,
+				B66CBD4E27D18AF000724CF6 /* AGKDI.swift in Sources */,
 				B66CBD4827D18A3B00724CF6 /* AGKView.swift in Sources */,
+				B68A058227D72E87007B6288 /* AGKFrameMakerEdit.swift in Sources */,
 				B66CBD4627D18A3B00724CF6 /* Model.swift in Sources */,
+				B68A057927D70DE0007B6288 /* AGK.swift in Sources */,
+				B68A057727D70D80007B6288 /* AKGFrameMaker.swift in Sources */,
 				B66CBD4727D18A3B00724CF6 /* AGKConfig.swift in Sources */,
+				B68A057D27D7165F007B6288 /* AGKAttribute.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
