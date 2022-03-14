@@ -25,4 +25,8 @@ class VM: NSObject{
     var isClearAlerts: Box<Bool> = Box(false)
     var showAlerts: Box<AlertKind> = Box(.no)
     var isSpinner: Box<(show: Bool, isCanTouched: Bool)> = Box((false, false))
+    
+    func sum(a: Int, b: Int) -> Int{
+        return a + b
+    }
 }
