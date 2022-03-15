@@ -1,11 +1,11 @@
-osx_image: xcode13.2.1
+osx_image: xcode13.1
 language: swift
 os: iOS
 #xcode_workspace: AnneGeoKit.xcodeproj
 xcode_project: AnneGeoKit.xcodeproj #3
 xcode_scheme: AnneGoeKitExample
-xcode_sdk: iphonesimulator8.4
-before_install:
-- brew update
-- gem install bundler --pre
-- gem install xcpretty
+xcode_sdk: iphonesimulator14.5
+#before_install:
+#- brew update
+#- gem install bundler --pre
+#- gem install xcpretty
