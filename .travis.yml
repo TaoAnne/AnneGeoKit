@@ -6,4 +6,5 @@ xcode_project: AnneGeoKit.xcodeproj #3
 xcode_scheme: AnneGoeKitExample
 xcode_sdk: iphonesimulator8.4
 before_install:
+- gem install bundler --pre
 - gem install xcpretty
