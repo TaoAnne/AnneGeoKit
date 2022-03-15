@@ -4,6 +4,6 @@ os: iOS
 #xcode_workspace: AnneGeoKit.xcodeproj
 xcode_project: AnneGeoKit.xcodeproj #3
 xcode_scheme: AnneGoeKitExample
-xcode_sdk: platform:iOS Simulator, OS:15.3.1, name:iPhone X
+xcode_sdk: iphonesimulator8.4
 #before_install:
 #- pod install
