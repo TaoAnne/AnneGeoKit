@@ -47,6 +47,8 @@ extension VCDI{
         self.vm.isClearAlerts.bind { [weak self] v in
             if v {
 //                self?.removeAlert {}
+                
+                //update
             }
         }
     }
