@@ -20,6 +20,20 @@
                ReferencedContainer = "container:AnneGeoKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B66CBD3127D1899300724CF6"
+               BuildableName = "AnneGeoKitTests.xctest"
+               BlueprintName = "AnneGeoKitTests"
+               ReferencedContainer = "container:AnneGeoKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
